@@ -1,7 +1,7 @@
-sudo
+Ansible role - Sudo install
 ====
 
-[![Build Status](https://travis-ci.org/kbrebanov/ansible-sudo.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-sudo)
+[![Build Status](https://travis-ci.org/replep/ansible-role-sudo.svg?branch=master)](https://travis-ci.org/replep/ansible-role-sudo)
 
 Installs and configures sudo.
 
@@ -27,7 +27,7 @@ Install sudo
 ```yaml
 - hosts: all
   roles:
-    - kbrebanov.sudo
+    - repleo.sudo
 ```
 
 License
@@ -37,5 +37,10 @@ BSD
 
 Author Information
 ------------------
+
+Repleo, Amstelveen, Holland -- www.repleo.nl 
+Jeroen Arnoldus <jeroen@repleo.nl>
+
+Original by:
 
 Kevin Brebanov

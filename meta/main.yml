@@ -1,15 +1,29 @@
 ---
 galaxy_info:
-  author: Kevin Brebanov
+  author: Jeroen Arnoldus
   description: Installs and configures sudo
-  company:
+  company: Repleo, Amstelveen, Holland
   license: BSD
   min_ansible_version: 1.9
   github_branch: master
   platforms:
+    - name: EL
+      versions:
+        - 5
+        - 6
+    - name: Fedora
+      versions:
+        - 16
+        - 17
+        - 18
     - name: Ubuntu
       versions:
-        - trusty
+        - all
+    - name: Debian
+      versions:
+        - all
   galaxy_tags:
     - system
+    - auth
+    - sudo
 dependencies: []

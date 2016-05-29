@@ -1,0 +1,25 @@
+---
+# tasks file for sudo (Ubuntu specific)
+
+- name: Install sudo packages
+  become: yes
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - "{{ sudo_packages }}"
+  tags:
+    - sudo
+
+- name: Create sudoers files
+  become: yes
+  template:
+    src: sudoers_ubuntu.j2
+    dest: /etc/sudoers
+    owner: root
+    group: root
+    mode: 0440
+    validate: 'visudo -cf %s'
+  tags:
+    - sudo
