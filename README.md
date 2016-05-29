@@ -1,7 +1,7 @@
 Ansible role - Sudo install
 ====
 
-[![Build Status](https://travis-ci.org/replep/ansible-role-sudo.svg?branch=master)](https://travis-ci.org/replep/ansible-role-sudo)
+[![Build Status](https://travis-ci.org/repleo/ansible-role-sudo.svg?branch=master)](https://travis-ci.org/repleo/ansible-role-sudo)
 
 Installs and configures sudo.
 
