@@ -38,7 +38,8 @@ BSD
 Author Information
 ------------------
 
-Repleo, Amstelveen, Holland -- www.repleo.nl 
+Repleo, Amstelveen, Holland -- www.repleo.nl
+
 Jeroen Arnoldus <jeroen@repleo.nl>
 
 Original by:
